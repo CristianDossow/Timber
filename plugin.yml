@@ -1,0 +1,12 @@
+name: Timber
+main: cl.mastercode.Timber.Main
+author: CristianDossow
+version: ${project.version}
+commands:
+  DamageIndicator:
+    description: Main Timber command
+    usage: /<command> <arguments>
+    aliases: timber
+permissions:
+  timber.admin:
+    description: Access to admin commands
